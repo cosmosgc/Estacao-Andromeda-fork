@@ -9,7 +9,8 @@
 - type: startingGear
   id: MobSecDogLaikaGear
   equipment:
-    eyes: ClothingEyesGlassesSunglasses
+    eyes: ClothingEyesGlassesSecurity
+    id: SecDogIDCard
 
 #Oldstation Roles
 
