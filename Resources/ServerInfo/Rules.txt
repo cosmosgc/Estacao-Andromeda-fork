@@ -1,11 +1,8 @@
-<Document>
-  # Server Rules
-
-  [color=#ffff00]Nossos objetivos:
+[color=#ffff00]Nossos objetivos:
 
 Andrômeda é um servidor MRP brasileiro. Você deve assumir seu personagem e interpreta-lo como um personagem na vida real, isso inclui: Fazer seu trabalho, interagir com outros tripulantes, usando o roleplay como foco nas suas ações. Nesse servidor você deve focar mais em contar uma historia do que de fato "ganhar".[/color]
 
-[color=#ff0000]Avisos do servidor:[/color]
+[color=#ff0000]Server Disclaimers:[/color]
 Você deve ter no minimo 16 anos para jogar no Andrômeda. Qualquer usuario menor de 16 anos será banido até completar a idade.
 
 Desconectar intencionalmente, responder com hostilidade ou recusar a responder um ahelp, irá ocasionar em ban que só poderá ser removido por apelo. Além disso, abusar do AHelp mandando baboseiras, verificando se há administradores antes de declarar um problema (Ex: "olá?", "algum admin?"), usando-o como uma sala de bate-papo ou enviando mensagens sem sentido pode resultar em banimentos. Todas as mensagens no ahelp irá para o servidor no discord.
@@ -14,11 +11,7 @@ O uso de quaisquer aplicativos/scripts/modificações de cliente de terceiros ou
 
 Se você tiver alguma dúvida sobre essas regras, use o menu de ajuda do administrador clicando em F1 no jogo ou clicando no botão "AHelp" no lobby.
 
-## Em construção:
-As regras ainda estão sendo moldadas. Algumas regras atuais estão sujeitas a mudanças ou podem ser removidas, alem de regras de novas regras poderam ser adicionadas ao decorrer das rodadas.
-
-## Regras da Comunidade:
-
+[color=#a4885c]Regras da Comunidade:[/color]
 [color=#a4885c]0.[/color] Os administradores podem desconsiderar toda e qualquer uma dessas regras se considerarem que isso é do melhor interesse da rodada atual, do servidor e/ou da comunidade em geral.
  - Os administradores serão totalmente responsabilizados pelas suas ações se exercerem este privilégio.
  - Todas essas regras se aplicam conforme pretendido. Cada exemplo de quebra de regra não pode ser definido como escrito, portanto, a aplicação das regras está sujeita à interpretação da intenção da regra pela equipe.
@@ -26,9 +19,9 @@ As regras ainda estão sendo moldadas. Algumas regras atuais estão sujeitas a m
 
 [color=#a4885c]E1.[/color] Roleplay erótico (ERP), conteúdo erótico ou conteúdo sexual para maiores de 18 anos [color=#ff0000]não é permitido em nenhuma circunstância[/color]. Isso inclui frases ou ideias consideradas inadequadas pela equipe ou membros. [color=#ff0000]Se o roleplay chegar a um ponto em que se torne sexual e/ou desconfortável, pare imediatamente e entre em contato com um administrador ou moderador.[/color]
 
-## Regras do Jogo:
+[color=#a4885c]Regras do Jogo:[/color]
 
-[color=#a4885c]1.[/color] Siga as expectativas do servidor:
+[color=#a4885c]1.[/color] Follow the server expectations:
  - Se você for banido de uma função ou departamento, você não poderá desempenhar essa função. Isso inclui buscar ou aceitar promoções em funções das quais você foi banido.
  - Não se torne um grande problema/aborrecimento/perturbação para a tripulação enquanto não for um antagonista. Atrapalhar intencionalmente a estação como um personagem alinhado à tripulação é estritamente contra nossas regras!!
  - Palhaços, mímicos e outros papéis “brincalhões” não estão isentos do acima exposto e não devem usar seu trabalho como desculpa para causar perturbação! Esses trabalhos são para divertir a estação e não o contrario.
@@ -80,7 +73,7 @@ Não se apresse ou prepare equipamentos não relacionados ao seu trabalho, sem n
  - Grief no final da rodada não é permitido. Isto inclui atacar, destruir, poluir e ferir gravemente sem motivo, tanto no Comando Central como a caminho dele.
     - É proibido usar explosivos e estratégias com capacidade de causar danos colaterais elevados dentro da nave de evacuação e proximo a ela quando a mesma docar na estação.
 
-## Regras de comando, segurança e antagonista:
+[color=#a4885c]Regras de comando, segurança e antagonista:[/color]
 [color=#a4885c]C1.[/color] Regras de comando e segurança:
  - As funções de Segurança e Comando obedecem a um padrão mais elevado de interpretação e espera-se que conheçam e desempenhem seus trabalhos da melhor maneira possível. Esses papéis muitas vezes impactam fortemente a rodada e exigem uma interpretação mais cuidadosa e consciente; se você não conseguir atender a esses requisitos, não assuma essas funções.
     - Ambos os departamentos são obrigados a ler e seguir a Lei Espacial, o Procedimento Operacional Padrão, o Procedimento de Alerta e a Política da Empresa da melhor maneira possível.
@@ -102,4 +95,3 @@ Não se apresse ou prepare equipamentos não relacionados ao seu trabalho, sem n
  - Outros antagonistas não são necessariamente seus amigos. Outros agentes, mercenários e possivelmente até dragões espaciais são agentes livres com os quais você pode negociar por sua própria conta e risco, mas ninguém deve trabalhar junto com xenomorfos, zumbis ou agentes nucleares.
  - Danos massivos ou acampamento a areas de chegada, evacuação ou cryo, estender desnecessariamente a rodada e ações que terminem o turno prematuramente - bem como outros comportamentos inadequados - são estritamente proibidos para todos os antags, exceto para antags destruidores de estação, como como agentes nucleares ou dragões espaciais.
  - Como antagonista não senciente ou parcialmente senciente, espera-se que você tenha apenas uma compreensão limitada das estações espaciais e sua mecânica. Slimes, zumbis e aranhas [color=#ff0000]não[/color] devem fazer sabotagem na estação, isso inclui, destruir geradores de energia, quebrar maquinarios necessarios para estação ou causar espaçamentos na estação desnecessariamente.
-</Document>
