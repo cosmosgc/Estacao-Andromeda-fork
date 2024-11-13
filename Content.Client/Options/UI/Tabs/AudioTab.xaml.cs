@@ -50,6 +50,10 @@ public sealed partial class AudioTab : Control
             CCVars.InterfaceVolume,
             SliderVolumeInterface,
             scale: ContentAudioSystem.InterfaceMultiplier);
+        Control.AddOptionPercentSlider(
+            CCVars.RadioVolume,
+            RadioVolumeSlider,
+            scale: ContentAudioSystem.RadioMultiplier);
 
         Control.AddOptionSlider(
             CCVars.MaxAmbientSources,
@@ -61,6 +65,7 @@ public sealed partial class AudioTab : Control
         Control.AddOptionCheckBox(CCVars.RestartSoundsEnabled, RestartSoundsCheckBox);
         Control.AddOptionCheckBox(CCVars.EventMusicEnabled, EventMusicCheckBox);
         Control.AddOptionCheckBox(CCVars.AdminSoundsEnabled, AdminSoundsCheckBox);
+        Control.AddOptionCheckBox(CCVars.RadioSoundsEnabled, radioChatterCheckbox);
 
         Control.Initialize();
     }

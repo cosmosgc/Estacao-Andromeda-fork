@@ -40,6 +40,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Robust.Shared.Player;
+using Robust.Client.Audio;
+using Robust.Shared.Audio;
 using Content.Client.Nyanotrasen.Chat; //Nyano - Summary: chat namespace.
 
 namespace Content.Client.UserInterface.Systems.Chat;
@@ -72,6 +75,7 @@ public sealed class ChatUIController : UIController
     private const string ChatNamePalette = "ChatNames";
     private string[] _chatNameColors = default!;
     private bool _chatNameColorsEnabled;
+    private TimeSpan _lastRadioPlayTime = TimeSpan.Zero;
 
     private ISawmill _sawmill = default!;
 
@@ -868,6 +872,10 @@ public sealed class ChatUIController : UIController
                 UnreadMessageCountsUpdated?.Invoke(msg.Channel, count);
             }
         }
+        if (msg.Channel == ChatChannel.Radio && msg.SenderEntity == default && _ghost is not { IsGhost: true })
+        {
+            PlayChatSound();
+        }
 
         // Local messages that have an entity attached get a speech bubble.
         if (!speechBubble || msg.SenderEntity == default)
@@ -948,6 +956,34 @@ public sealed class ChatUIController : UIController
     {
         var colorIdx = Math.Abs(name.GetHashCode() % _chatNameColors.Length);
         return _chatNameColors[colorIdx];
+    }
+
+    /// <summary>
+    /// Play a audio for radio receiver
+    /// </summary>
+    public void PlayChatSound()
+    {
+        var radioChatterEnabled = _config.GetCVar(CCVars.RadioSoundsEnabled);
+        if (radioChatterEnabled)
+        {
+            // Check if enough time has passed since the last sound played
+            if (_timing.CurTime < _lastRadioPlayTime)
+                return;
+
+            var sound = _config.GetCVar(CCVars.RadioSoundPath);
+            var audioParams = new AudioParams
+            {
+                //Volume não faz o impacto desejado
+                Volume = _config.GetCVar(CCVars.RadioVolume) - 5f,
+                Variation = 0.125f
+            };
+            if (IoCManager.Resolve<IEntityManager>().TrySystem<AudioSystem>(out var audio))
+            {
+                audio.PlayGlobal(sound, Filter.Local(), false, audioParams);
+                var radioCooldown = _config.GetCVar(CCVars.RadioCooldown);
+                _lastRadioPlayTime = _timing.CurTime + TimeSpan.FromSeconds(radioCooldown);
+            }
+        }
     }
 
     private readonly record struct SpeechBubbleData(ChatMessage Message, SpeechBubble.SpeechType Type);
