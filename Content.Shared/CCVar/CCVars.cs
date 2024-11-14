@@ -8,7 +8,7 @@ namespace Content.Shared.CCVar
 {
     // ReSharper disable once InconsistentNaming
     [CVarDefs]
-    public sealed class CCVars : CVars
+    public sealed partial class CCVars : CVars
     {
         /*
          * Server

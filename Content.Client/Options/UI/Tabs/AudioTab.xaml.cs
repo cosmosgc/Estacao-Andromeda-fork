@@ -57,10 +57,16 @@ public sealed partial class AudioTab : Control
             _cfg.GetCVar(CCVars.MinMaxAmbientSourcesConfigured),
             _cfg.GetCVar(CCVars.MaxMaxAmbientSourcesConfigured));
 
+        Control.AddOptionPercentSlider(
+            CCVars.RadioVolume,
+            RadioVolumeSlider,
+            scale: ContentAudioSystem.RadioMultiplier);
+
         Control.AddOptionCheckBox(CCVars.LobbyMusicEnabled, LobbyMusicCheckBox);
         Control.AddOptionCheckBox(CCVars.RestartSoundsEnabled, RestartSoundsCheckBox);
         Control.AddOptionCheckBox(CCVars.EventMusicEnabled, EventMusicCheckBox);
         Control.AddOptionCheckBox(CCVars.AdminSoundsEnabled, AdminSoundsCheckBox);
+        Control.AddOptionCheckBox(CCVars.RadioSoundsEnabled, radioChatterCheckbox);
 
         Control.Initialize();
     }
