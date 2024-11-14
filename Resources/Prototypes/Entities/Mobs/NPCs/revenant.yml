@@ -8,6 +8,7 @@
   components:
   - type: Input
     context: "ghost"
+  - type: Spectral
   - type: MovementSpeedModifier
     baseWalkSpeed: 6
     baseSprintSpeed: 6
@@ -80,4 +81,3 @@
     - RevenantTheme
   - type: Speech
     speechVerb: Ghost
-  - type: PreventSpiller
