@@ -5,6 +5,9 @@
   description: Just add capitalism!
   abstract: true
   components:
+  - type: ActionGrant
+    actions:
+    - ActionVendingThrow
   - type: StationAiWhitelist
   - type: AmbientOnPowered
   - type: AmbientSound
@@ -76,12 +79,8 @@
     speechVerb: Robotic
     speechSounds: Vending
   - type: IntrinsicRadioReceiver
-  - type: IntrinsicRadioTransmitter
-    channels:
-    - Binary
   - type: ActiveRadio
     channels:
-    - Binary
     - Common
   - type: DoAfter
   - type: Electrified
@@ -2161,7 +2160,7 @@
   parent: VendingMachineChemicals
   id: VendingMachineChemicalsSyndicate
   name: SyndieJuice
-  description: Not made with freshly squeezed syndies I hope.
+  description: Not made with freshly squeezed syndies I hope. Backwards compatible with standard ChemVend restocks. # DeltaV: Add chemvend part
   components:
   - type: VendingMachine
     pack: ChemVendInventorySyndicate
