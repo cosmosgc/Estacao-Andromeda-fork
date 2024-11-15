@@ -12,5 +12,5 @@ public sealed partial class CCVars
     public static readonly CVarDef<float> RadioVolume =
         CVarDef.Create("audio.radio_volume", -5f, CVar.ARCHIVE | CVar.CLIENTONLY);
     public static readonly CVarDef<float> RadioCooldown =
-        CVarDef.Create("audio.radio_cooldown", 2f, CVar.ARCHIVE | CVar.CLIENT | CVar.REPLICATED);
+        CVarDef.Create("audio.radio_cooldown", 2f, CVar.ARCHIVE | CVar.CLIENTONLY);
 }

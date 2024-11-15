@@ -20,7 +20,8 @@
                 <CheckBox Name="RestartSoundsCheckBox" Text="{Loc 'ui-options-restart-sounds'}" />
                 <CheckBox Name="EventMusicCheckBox" Text="{Loc 'ui-options-event-music'}" />
                 <CheckBox Name="AdminSoundsCheckBox" Text="{Loc 'ui-options-admin-sounds'}" />
-                <CheckBox Name="radioChatterCheckbox" Text="Radio Chatter" />
+                <CheckBox Name="RadioChatterCheckbox" Text="Radio Chatter" />
+                <ui:OptionDropDown Name="RadioCooldown" Title="Radio Spam" />
             </BoxContainer>
         </BoxContainer>
         <ui:OptionsTabControlRow Name="Control" Access="Public" />
