@@ -1,55 +1,76 @@
-﻿- type: lobbyBackground
-  id: MedbayMadness
-  background: /Textures/LobbyScreens/MedbayMadness.webp
+﻿#- type: lobbyBackground
+#  id: MedbayMadness
+#  background: /Textures/LobbyScreens/MedbayMadness.webp
+#
+#- type: lobbyBackground
+#  id: Revenant
+#  background: /Textures/LobbyScreens/revenant.webp
+#
+#- type: lobbyBackground
+#  id: Oracle
+#  background: /Textures/LobbyScreens/oracle.webp
+#
+#- type: lobbyBackground
+#  id: aBadShift
+#  background: /Textures/LobbyScreens/aBadShift.webp
+#
+- type: lobbyBackground
+  id: FS
+  background: /Textures/LobbyScreens/FS.png
 
 - type: lobbyBackground
-  id: Revenant
-  background: /Textures/LobbyScreens/revenant.webp
+  id: LeandroVsPhill
+  background: /Textures/LobbyScreens/LeandroVsPhill.png
+
+#- type: lobbyBackground
+#  id: Bar
+#  background: /Textures/LobbyScreens/Bar.webp
 
 - type: lobbyBackground
-  id: Oracle
-  background: /Textures/LobbyScreens/oracle.webp
+  id: YL
+  background: /Textures/LobbyScreens/YvoeLuna.png
 
 - type: lobbyBackground
-  id: aBadShift
-  background: /Textures/LobbyScreens/aBadShift.webp
+  id: FofoU
+  background: /Textures/LobbyScreens/FofocaUnida.png
 
 - type: lobbyBackground
-  id: Bar
-  background: /Textures/LobbyScreens/Bar.webp
-
-- type: lobbyBackground
-  id: CodeDeltaGamma
-  background: /Textures/LobbyScreens/CodeDeltaGamma.webp
-
-- type: lobbyBackground
-  id: CupOfVelta
-  background: /Textures/LobbyScreens/CupOfVelta.webp
-
-- type: lobbyBackground
-  id: Epistemics
-  background: /Textures/LobbyScreens/Epistemics.webp
-
-- type: lobbyBackground
-  id: Singulo
-  background: /Textures/LobbyScreens/Singulo.webp
-
-- type: lobbyBackground
-  id: OperatorPlush
-  background: /Textures/LobbyScreens/OperatorPlush.webp
-
-- type: lobbyBackground
-  id: breakingspace
-  background: /Textures/LobbyScreens/breakingspace.webp
-
-- type: lobbyBackground
-  id: StationCrewBoard
-  background: /Textures/LobbyScreens/station-crew-board.webp
-
-- type: lobbyBackground
-  id: CorporateRats
-  background: /Textures/LobbyScreens/Corporate_Rats.webp
-
-- type: lobbyBackground
-  id: SecurityCamera
-  background: /Textures/LobbyScreens/DeltaVContestWinner.webp
+  id: Sci
+  background: /Textures/LobbyScreens/SCI.png
+#
+#- type: lobbyBackground
+#  id: CodeDeltaGamma
+#  background: /Textures/LobbyScreens/CodeDeltaGamma.webp
+#
+#- type: lobbyBackground
+#  id: CupOfVelta
+#  background: /Textures/LobbyScreens/CupOfVelta.webp
+#
+#- type: lobbyBackground
+#  id: Epistemics
+#  background: /Textures/LobbyScreens/Epistemics.webp
+#
+#- type: lobbyBackground
+#  id: Singulo
+#  background: /Textures/LobbyScreens/Singulo.webp
+#
+#- type: lobbyBackground
+#  id: OperatorPlush
+#  background: /Textures/LobbyScreens/OperatorPlush.webp
+#
+#- type: lobbyBackground
+#  id: breakingspace
+#  background: /Textures/LobbyScreens/breakingspace.webp
+#
+#- type: lobbyBackground
+#  id: StationCrewBoard
+#  background: /Textures/LobbyScreens/station-crew-board.webp
+#
+#- type: lobbyBackground
+#  id: CorporateRats
+#  background: /Textures/LobbyScreens/Corporate_Rats.webp
+#
+#- type: lobbyBackground
+#  id: SecurityCamera
+#  background: /Textures/LobbyScreens/DeltaVContestWinner.webp
+#
