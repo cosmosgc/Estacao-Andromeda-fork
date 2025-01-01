@@ -21,7 +21,7 @@
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
-  whitelisted: true # DeltaV
+  whitelisted: false # Andrômeda - por enquanto não
   access:
   - HeadOfSecurity
   - Command

@@ -31,7 +31,7 @@
   joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
-  whitelisted: true # DeltaV
+  whitelisted: false # Andrômeda - Por enquanto
   accessGroups:
   - AllAccess
   special:

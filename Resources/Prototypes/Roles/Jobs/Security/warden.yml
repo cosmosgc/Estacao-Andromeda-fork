@@ -15,7 +15,7 @@
   requireAdminNotify: true
   supervisors: job-supervisors-hos
   canBeAntag: false
-  whitelisted: true # DeltaV
+  whitelisted: false #Andrômeda - Por algum motivo warden é whitelisted
   access:
   - Security
   #- Brig # Delta V: Removed
