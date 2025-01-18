@@ -484,7 +484,7 @@
   - type: StationEvent
     earliestStart: 35
     weight: 5.5
-    minimumPlayers: 20
+    minimumPlayers: 15
     duration: 1
   - type: LoadMapRule
     preloadedGrid: ShuttleStriker
