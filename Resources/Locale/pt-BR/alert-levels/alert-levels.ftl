@@ -20,7 +20,7 @@ alert-level-violet-announcement = Há uma ameaça viral na estação. O departam
 alert-level-violet-instructions = Os tripulantes são aconselhados à manter distancia um do outro e manter qualquer medida de segurança para previnir a propagação.
 
 alert-level-white = Branco
-alert-level-white-announcement = Os níveis de Vislumbre na estaçao estao se aproximando a níveis perigosos. Desligue todas as sondas de vislumbre. A chefia, mantes e a segurança podem adminsitrar drogas mindbreaker. Psiônicos devem alertar autoridades relevantes de sua existncia. Busque isolamento psiônico se possivel.
+alert-level-white-announcement = Os níveis de Glimmer na estaçao estao se aproximando a níveis perigosos. Desligue todas as sondas de Glimmer. A chefia, mantes e a segurança podem adminsitrar drogas mindbreaker. Psiônicos devem alertar autoridades relevantes de sua existncia. Busque isolamento psiônico se possivel.
 
 alert-level-yellow = Amarelo
 alert-level-yellow-announcement = Há uma ameaça estrutural ou atmosférica na estação. O departamento de engenharia é aconselhado à responder imediatamente e performar as medidas de segurança. Os tripulantes são aconselhados à manter distância da ameaça, e continuar em seus postos de trabalho se necessário.

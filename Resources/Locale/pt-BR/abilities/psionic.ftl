@@ -40,9 +40,9 @@ action-description-telegnosis = Crie uma projeção telegnóstica para observar 
 action-name-psionic-regeneration = Regeneração Psiônica
 action-description-psionic-regeneration = Leve o seu metabolismo ao limite para alimentar as capacidades regenerativas do seu corpo.
 
-glimmer-report = Nivel atual de vislumbre: {$level}μΨ.
-glimmer-event-report-generic = descarga noösférica detectada. Nivel de vislumbre diminuiu {$decrease} até {$level}μΨ.
-glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O nível de vislumbre diminuiu em {$decrease} para {$level}Ψ.
+glimmer-report = Nivel atual de Glimmer: {$level}μΨ.
+glimmer-event-report-generic = descarga noösférica detectada. Nivel de Glimmer diminuiu {$decrease} até {$level}μΨ.
+glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O nível de Glimmer diminuiu em {$decrease} para {$level}Ψ.
 glimmer-event-awakened-prefix = acordado {$entity}
 
 noospheric-zap-seize = Você se convulsiona!
