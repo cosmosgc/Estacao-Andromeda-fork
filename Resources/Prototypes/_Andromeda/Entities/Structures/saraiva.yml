@@ -6,7 +6,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: _Andromeda\Custom\saraiva.rsi
+    sprite: Andromeda/Custom/Saraiva.rsi
     state: saraiva
     drawdepth: Mobs
     offset: "0.0,0.5"
