@@ -8,7 +8,7 @@ whitelist-playercount-invalid = {$min ->
         *[other] -> jogadores e menos de {$max} jogadores, então talvez você possa entrar mais tarde.
     }
 }
-whitelist-not-whitelisted-rp = Você não está na whitelist. Para entrar na whitelist, visite nosso Discord (que pode ser encontrado em https://estacaopirata.com/).
+whitelist-not-whitelisted-rp = Você não está na whitelist. Para entrar na whitelist, visite nosso Discord (que pode ser encontrado em http://estacaoandromeda.xyz/).
 
 cmd-whitelistadd-desc = Adiciona o jogador na whitelist.
 cmd-whitelistadd-help = whitelistadd <username>

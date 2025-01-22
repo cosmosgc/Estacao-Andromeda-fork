@@ -12,6 +12,3 @@ changelog-button-new-entries = Mudanças (novas!)
 
 changelog-tab-title-Changelog = Upstream (Einstein Engines)
 changelog-tab-title-Admin = Admin
-
-# Pirata
-changelog-tab-title-Pirata = Pirata
