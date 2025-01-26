@@ -1,0 +1,74 @@
+- type: entity
+  parent: PlushieHuman
+  id: PlushieJanie
+  name: Janie plushie
+  description: Sua própria Janie, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: janie
+  - type: UseDelay
+    delay: 1.5
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+
+- type: entity
+  parent: PlushieHuman
+  id: KaliPlushie
+  name: Kali plushie
+  description: Kali só para você, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: kali
+  - type: UseDelay
+    delay: 1.5
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+
+- type: entity
+  parent: PlushieHuman
+  id: PodroPlushie
+  name: Podro  plushie
+  description: Podro só para você, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: podro
+  - type: UseDelay
+    delay: 1.5
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
