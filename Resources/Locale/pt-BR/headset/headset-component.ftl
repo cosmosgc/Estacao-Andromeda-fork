@@ -17,7 +17,6 @@ chat-radio-syndicate = Sindicato
 chat-radio-freelance = Freelance
 chat-radio-justice = Justiça
 chat-radio-prison = Prisão
-
 # not headset but whatever
 chat-radio-handheld = Portátil
 chat-radio-binary = Binário
