@@ -1,3 +1,4 @@
-department-Epistemics = Ciência
-department-Logistics = Cargo
+department-Epistemics = Epistemologia
+department-Logistics = Logística
 department-Justice = Justiça
+

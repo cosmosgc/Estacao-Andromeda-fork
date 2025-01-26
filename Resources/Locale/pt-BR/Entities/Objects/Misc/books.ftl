@@ -1,5 +1,6 @@
 ent-BookBase = livro
-    .desc = Um livro de capa dura.
+     .desc = Um livro de capa dura.
+
 ent-BookRandom = livro
-    .desc = Um livro de capa dura.
-    .suffix = aleatório
+     .desc = Um livro de capa dura.
+     .suffix = aleatório

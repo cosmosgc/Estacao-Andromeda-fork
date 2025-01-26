@@ -1,6 +1,7 @@
-# Command
+﻿# Command
 cmd-faxui-desc = Abre janela admin para mandar faxes
 cmd-faxui-help = Uso: faxui
+
 # Window
 admin-fax-title = Gerenciador de Fax Admin
 admin-fax-fax = Fax:

@@ -1,1 +1,2 @@
-administration-ui-round-tab-restart-round-now = Reiniciar AGORA
+administration-ui-round-tab-restart-round-now = Restart NOW
+

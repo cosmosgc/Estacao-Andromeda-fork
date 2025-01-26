@@ -1,4 +1,6 @@
 ent-BaseSpeedLoaderCap = carregador de velocidade de espoleta
-    .desc = { "" }
+     .desc = { "" }
+
 ent-SpeedLoaderCap = carregador de velocidade de espoleta
-    .desc = { "" }
+     .desc = { "" }
+

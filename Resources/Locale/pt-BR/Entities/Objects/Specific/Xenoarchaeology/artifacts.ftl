@@ -1,32 +1,43 @@
-ent-BaseXenoArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-ent-BadfeelingArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Mau pressentimento
-ent-GoodfeelingArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Bom pressentimento
-ent-AngryMobsSpawnArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Surgimento de Multidões Furiosas
-ent-JunkSpawnArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Surgimento de Lixo
-ent-BananaSpawnArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Surgimento de Bananas
-ent-HeatArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Calor
-ent-ColdArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Frio
-ent-RadiateArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Radiação
-ent-GasArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Gás
-ent-DiseaseArtifact = artefato alienígena
-    .desc = Um estranho dispositivo alienígena.
-    .suffix = Doença
+ent-BaseXenoArtifact = alien artifact
+    .desc = A strange alien device.
+
+ent-BadfeelingArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Badfeeling
+
+ent-GoodfeelingArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Goodfeeling
+
+ent-AngryMobsSpawnArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Angry Mobs Spawn
+
+ent-JunkSpawnArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Junk Spawn
+
+ent-BananaSpawnArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Banana Spawn
+
+ent-HeatArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Heat
+
+ent-ColdArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Cold
+
+ent-RadiateArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Radiation
+
+ent-GasArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Gas
+
+ent-DiseaseArtifact = alien artifact
+    .desc = A strange alien device.
+    .suffix = Disease
+

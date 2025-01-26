@@ -1,6 +1,8 @@
-ent-PartRodMetal = hastes de metal
+ent-PartRodMetal = metal rods
     .desc = { "" }
-    .suffix = Completo
-ent-PartRodMetal1 = haste de metal
+    .suffix = Full
+
+ent-PartRodMetal1 = metal rod
     .desc = { "" }
-    .suffix = Único
+    .suffix = Single
+

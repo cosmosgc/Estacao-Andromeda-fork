@@ -1,10 +1,14 @@
 ent-BaseSpeedLoaderPistol = carregador de velocidade (.35 automático)
-    .desc = { "" }
+     .desc = { "" }
+
 ent-SpeedLoaderPistol = carregador de velocidade (.35 automático)
-    .desc = { "" }
+     .desc = { "" }
+
 ent-SpeedLoaderPistolHighVelocity = carregador de velocidade (.35 auto alta velocidade)
-    .desc = { "" }
+     .desc = { "" }
+
 ent-SpeedLoaderPistolPractice = carregador de velocidade (.35 prática automática)
-    .desc = { "" }
+     .desc = { "" }
+
 ent-SpeedLoaderPistolRubber = carregador de velocidade (.35 auto borracha)
-    .desc = { "" }
+     .desc = { "" }

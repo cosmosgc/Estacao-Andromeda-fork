@@ -1,4 +1,3 @@
-marking-HumanHairSpookyLong = Spooky Long
 marking-HumanHairAfro = Afro
 marking-HumanHairAfro2 = Afro 2
 marking-HumanHairBigafro = Afro (Grande)

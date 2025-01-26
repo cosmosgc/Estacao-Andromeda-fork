@@ -1,5 +1,3 @@
-admin-menu-baby-jail-tab = Baby Jail
-
 ## AdminMenuWindow.xaml.cs
 
 admin-menu-title = Admin Menu

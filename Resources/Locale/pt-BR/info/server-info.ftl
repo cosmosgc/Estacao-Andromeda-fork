@@ -1,4 +1,3 @@
-server-info-forum-button = Forum
 server-info-rules-button = Regras
 server-info-guidebook-button = Livro guia
 server-info-discord-button = Discord

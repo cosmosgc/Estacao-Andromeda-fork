@@ -1,20 +1,30 @@
-ent-BaseMagazineMagnum = carregador Lamia (.40 magnum)
+ent-BaseMagazineMagnum = magazine Lamia (.40 magnum)
     .desc = { "" }
-ent-BaseMagazineMagnumSubMachineGun = carregador de Vetor (.40 magnum)
+
+ent-BaseMagazineMagnumSubMachineGun = magazine de Vetor (.40 magnum)
     .desc = { "" }
-ent-MagazineMagnum = carregador Lamia (.40 magnum)
+
+ent-MagazineMagnum = magazine Lamia (.40 magnum)
     .desc = { "" }
-ent-MagazineMagnumHighVelocity = carregador Lamia (.40 magnum alta velocidade)
+
+ent-MagazineMagnumHighVelocity = magazine Lamia (.40 magnum alta velocidade)
     .desc = { "" }
-ent-MagazineMagnumPractice = carregador Lamia (.40 magnum prática)
+
+ent-MagazineMagnumPractice = magazine Lamia (.40 magnum prática)
     .desc = { "" }
-ent-MagazineMagnumRubber = carregador Lamia (.40 magnum borracha)
+
+ent-MagazineMagnumRubber = magazine Lamia (.40 magnum borracha)
     .desc = { "" }
-ent-MagazineMagnumSubMachineGun = carregador de Vetor (.40 magnum)
+
+ent-MagazineMagnumSubMachineGun = magazine de Vetor (.40 magnum)
     .desc = { "" }
-ent-MagazineMagnumSubMachineGunHighVelocity = carregador de Vetor (.40 magnum alta velocidade)
+
+ent-MagazineMagnumSubMachineGunHighVelocity = magazine de Vetor (.40 magnum alta velocidade)
     .desc = { "" }
-ent-MagazineMagnumSubMachineGunPractice = carregador de Vetor (.40 magnum prática)
+
+ent-MagazineMagnumSubMachineGunPractice = magazine de Vetor (.40 magnum prática)
     .desc = { "" }
-ent-MagazineMagnumSubMachineGunRubber = carregador de Vetor (.40 magnum borracha)
+
+ent-MagazineMagnumSubMachineGunRubber = magazine de Vetor (.40 magnum borracha)
     .desc = { "" }
+

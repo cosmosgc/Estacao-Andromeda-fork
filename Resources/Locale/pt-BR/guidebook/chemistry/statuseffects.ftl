@@ -1,6 +1,4 @@
-reagent-effect-status-effect-Drowsiness = drowsiness
-reagent-effect-status-effect-RadiationProtection = radiation protection
-reagent-effect-status-effect-Stun = stunning
+﻿reagent-effect-status-effect-Stun = stunning
 reagent-effect-status-effect-KnockedDown = knockdown
 reagent-effect-status-effect-Jitter = jittering
 reagent-effect-status-effect-TemporaryBlindness = blindess

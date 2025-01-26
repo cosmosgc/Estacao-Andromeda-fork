@@ -1,4 +1,5 @@
 bluespace-artifact-event-announcement = Nossos instrumentos detectaram um objeto anômalo se aproximando. Por favor informe a equipe de pesquisa de { $sighting }.
+
 bluespace-artifact-sighting-1 = intensos flashes de luz
 bluespace-artifact-sighting-2 = sons estranhos vindos dos túneis de manutenção
 bluespace-artifact-sighting-3 = estruturas sobrenaturais
