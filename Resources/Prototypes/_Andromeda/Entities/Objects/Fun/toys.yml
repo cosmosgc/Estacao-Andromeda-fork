@@ -72,3 +72,29 @@
       path: /Audio/Animals/mouse_squeak.ogg
       params:
         volume: 1
+
+
+- type: entity
+  parent: PlushieHuman
+  id: ApoloPlushie
+  name: Apolo  plushie
+  description: Apolo só para você, edição de colecionador.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: apolo
+  - type: UseDelay
+    delay: 1.5
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Animals/mouse_squeak.ogg
+      params:
+        volume: 1
