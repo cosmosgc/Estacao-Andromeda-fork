@@ -778,8 +778,8 @@ public sealed partial class ChatSystem : SharedChatSystem
             newMessage = SanitizeMessageCapital(newMessage);
         if (capitalizeTheWordI)
             newMessage = SanitizeMessageCapitalizeTheWordI(newMessage, "i");
-        if (punctuate)
-            newMessage = SanitizeMessagePeriod(newMessage);
+        //if (punctuate)
+        //  newMessage = SanitizeMessagePeriod(newMessage);
 
         _sanitizer.TrySanitizeOutSmilies(newMessage, source, out newMessage, out emoteStr);
 
