@@ -9,6 +9,13 @@
   requireAdminNotify: true
   supervisors: job-supervisors-captain
   canBeAntag: false
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Engineering
+      min: 28800 # 8 horas
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobAtmosphericTechnician
+      min: 10800 #4 hrs
   access:
   - Maintenance
   - Engineering

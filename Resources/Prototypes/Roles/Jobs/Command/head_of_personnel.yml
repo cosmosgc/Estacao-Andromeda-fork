@@ -6,6 +6,12 @@
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   weight: 10 # DeltaV - Changed HoP weight from 20 to 10 due to them not being more important than other Heads
   startingGear: HoPGear
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Civilian
+      min: 28800
+    - !type:CharacterOverallTimeRequirement
+      min: 43200
   icon: "JobIconHeadOfPersonnel"
   requireAdminNotify: true
   supervisors: job-supervisors-captain
