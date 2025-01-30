@@ -9,10 +9,10 @@
   supervisors: job-supervisors-hos
   canBeAntag: false
   accessGroups:
+  - AllAccess
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 43200
-  - AllAccess
   access:
   - CentralCommand
   afterLoadoutSpecial:
