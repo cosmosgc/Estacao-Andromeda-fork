@@ -24,6 +24,8 @@
     - Vocal
   chatMessages: ["chat-emote-msg-laugh"]
   chatTriggers:
+    - ri
+    - da risada
     - laughs
     - chuckles
     - giggles
@@ -51,6 +53,7 @@
     - Vocal
   chatMessages: ["chat-emote-msg-sigh"]
   chatTriggers:
+    - suspira
     - sighs
 
 - type: emote
@@ -63,6 +66,7 @@
     - Vocal
   chatMessages: ["chat-emote-msg-whistle"]
   chatTriggers:
+    - assobia
     - whistles
 
 - type: emote
@@ -75,6 +79,8 @@
     - Vocal
   chatMessages: ["chat-emote-msg-crying"]
   chatTriggers:
+    - chora
+    - cry
     - cries
     - sobs
 
@@ -156,6 +162,9 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
+    - bate palma
+    - bate palmas
+    - clap
     - claps
 
 - type: emote
@@ -192,6 +201,7 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-salute"]
   chatTriggers:
+    - salute
     - salutes
 
 - type: emote

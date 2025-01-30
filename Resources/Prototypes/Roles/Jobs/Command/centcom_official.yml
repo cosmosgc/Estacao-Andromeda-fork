@@ -9,7 +9,7 @@
   supervisors: job-supervisors-hos
   canBeAntag: false
   accessGroups:
-    requirements:
+  requirements:
     - !type:CharacterOverallTimeRequirement
       min: 43200
   - AllAccess
