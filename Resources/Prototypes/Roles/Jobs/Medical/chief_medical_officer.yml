@@ -7,6 +7,13 @@
   playTimeTracker: JobChiefMedicalOfficer
   antagAdvantage: 6 # DeltaV - Reduced TC: Head of Staff
   weight: 10
+  requirements:
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobChemist
+      min: 21600 #6 hrs
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      min: 36000 # 20 hrs
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"
   requireAdminNotify: true

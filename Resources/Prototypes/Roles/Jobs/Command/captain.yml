@@ -8,6 +8,13 @@
   icon: "JobIconCaptain"
   requireAdminNotify: true
   joinNotifyCrew: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Command
+      min: 43200 # 12 horas
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobHeadOfPersonnel
+      min: 21600 #6 hrs
   supervisors: job-supervisors-centcom
   canBeAntag: false
   accessGroups:

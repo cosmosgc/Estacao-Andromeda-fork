@@ -9,6 +9,13 @@
   icon: "JobIconQuarterMaster"
   supervisors: job-supervisors-captain
   canBeAntag: false
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Logistics
+      min: 28800 # 8 horas
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSalvageSpecialist
+      min: 14400 #4 hrs
   access:
   - Cargo
   - Salvage
