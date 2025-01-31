@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedSnailAmuletPolymorphPire
+  name: snail amulet
+  description: A beautiful gold amulet, featuring a ruby that shines with an otherworldly glow.
+  suffix: Snail Seed
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphSnailSpeed
+
+- type: polymorph
+  id: PolymorphSnailSpeed
+  configuration:
+    entity: MobSnailSpeed
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
