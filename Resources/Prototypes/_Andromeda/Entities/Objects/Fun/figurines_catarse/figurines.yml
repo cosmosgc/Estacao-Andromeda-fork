@@ -1,0 +1,10 @@
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineLunaraGooben
+  name: Lunara Gooben
+  description: Deusa. Somente Deusa.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: luna_figure
+    scale: 0.5, 0.5
