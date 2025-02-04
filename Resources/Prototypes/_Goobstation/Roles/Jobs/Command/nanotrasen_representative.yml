@@ -7,6 +7,11 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Command
       min: 21600 # 6 horas
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
   weight: 20
   startingGear: NanotrasenRepresentativeGear
   icon: "JobIconNanotrasenRepresentative"

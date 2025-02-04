@@ -10,6 +10,11 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 28800 # 6 horas
+    - !type:CharacterTraitRequirement
+      inverted: true
+      traits:
+        - Foreigner
+        - ForeignerLight
   weight: 20
   startingGear: MagistrateGear
   icon: "JobIconMagistrate"
