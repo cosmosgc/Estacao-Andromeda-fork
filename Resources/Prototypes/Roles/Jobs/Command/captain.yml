@@ -10,18 +10,17 @@
         - Foreigner
         - ForeignerLight
         - Pacifist
-  weight: 20
-  startingGear: CaptainGear
-  icon: "JobIconCaptain"
-  requireAdminNotify: true
-  joinNotifyCrew: true
-  requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Command
       min: 43200 # 12 horas
     - !type:CharacterPlaytimeRequirement
       tracker: JobHeadOfPersonnel
       min: 21600 #6 hrs
+  weight: 20
+  startingGear: CaptainGear
+  icon: "JobIconCaptain"
+  requireAdminNotify: true
+  joinNotifyCrew: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
   accessGroups:
