@@ -9,6 +9,18 @@
     "states": [
         {
             "name": "luna_figure"
+        },
+        {
+            "name": "podro_figure"
+        },
+        {
+            "name": "wells_figure"
+        },
+        {
+            "name": "phil_figure"
+        },
+        {
+            "name": "janie_figure"
         }
     ]
 }
