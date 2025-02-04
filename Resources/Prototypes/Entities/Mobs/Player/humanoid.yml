@@ -529,8 +529,6 @@
       description: ghost-role-information-centcom-official-description
       raffle:
         settings: default
-      job: CentralCommandOfficial
-      whitelisted: true
     - type: GhostTakeoverAvailable
     - type: Loadout
       prototypes: [ CentcomGear ]

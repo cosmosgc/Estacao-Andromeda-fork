@@ -109,7 +109,7 @@
     - type: Barotrauma
       damage:
         types:
-          Cold: 0.35 # per second, scales with pressure and other constants.
+          Blunt: 0.35 # per second, scales with pressure and other constants.
     - type: Bloodstream
       bloodlossDamage:
         types:
