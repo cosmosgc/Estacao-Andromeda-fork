@@ -1,15 +1,4 @@
 - type: entity
-  parent: ClothingOuterBase
-  id: ClothingOuterBeltedOutfit
-  name: belted outerwear
-  description: What? Do you think youre an anime protagonist or something?
-  components:
-  - type: Sprite
-    sprite: Floof/Clothing/OuterClothing/Misc/beltedouterwear.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/OuterClothing/Misc/beltedouterwear.rsi
-
-- type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterMarsHoodie
   name: pink hoodie
@@ -76,14 +65,3 @@
     sprite: Floof/Clothing/OuterClothing/WinterCoats/cyberjacketwhite.rsi
   - type: Clothing
     sprite: Floof/Clothing/OuterClothing/WinterCoats/cyberjacketwhite.rsi
-
-- type: entity
-  parent: ClothingOuterBase
-  id: ClothingOuterShackles
-  name: shackles
-  description: metal shackles, cold to the touch.
-  components:
-  - type: Sprite
-    sprite: Floof/Clothing/OuterClothing/Misc/shackles.rsi
-  - type: Clothing
-    sprite: Floof/Clothing/OuterClothing/Misc/shackles.rsi

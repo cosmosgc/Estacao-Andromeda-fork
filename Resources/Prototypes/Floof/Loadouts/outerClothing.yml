@@ -97,13 +97,3 @@
   requirements:
     - !type:CharacterItemGroupRequirement
       group: LoadoutOuter
-
-- type: loadout
-  id: LoadoutClothingOuterShackles
-  category: Outer
-  cost: 1
-  items:
-    -  ClothingOuterShackles
-  requirements:
-    - !type:CharacterItemGroupRequirement
-      group: LoadoutOuter
