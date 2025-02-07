@@ -314,3 +314,25 @@
     transferDamage: true
     revertOnCrit: true
     revertOnDeath: true
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSmileAmuletPolymorph
+  name: Cerberus amulet
+  description: Um amuleto de obsidiana esculpido com Um xeno diferente nela.
+  suffix: Smile
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphSmile
+
+
+- type: polymorph
+  id: PolymorphSmile
+  configuration:
+    entity: MobSlimesPet
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
