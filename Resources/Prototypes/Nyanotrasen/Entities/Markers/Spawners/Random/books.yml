@@ -69,6 +69,7 @@
       - BookAtmosVentsMore
       - BookRandom # The empty random book because why not
     chance: 0.9
+      - BookPerdido
    # rarePrototypes:
    #   - BookChemistryInsane
    #   - BookBotanicalTextbook

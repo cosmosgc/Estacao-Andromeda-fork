@@ -23,7 +23,7 @@
   parent: ToyFigurineLunaraGooben
   id: ToyFigurineWellsChaplon
   name: Wells Chaplon
-  description: Template
+  description: "Dizem que ele é melhor que o Capitão Ronaldo"
   components:
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
@@ -33,7 +33,7 @@
   parent: ToyFigurineLunaraGooben
   id: ToyFigurinePhilMal
   name: Phil-Mal
-  description: Template
+  description: "Impossivel olhar pra ele e não pensar 'Que cara legal'"
   components:
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
@@ -49,3 +49,13 @@
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
     state: janie_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineRonaldo
+  name: Ronaldo Raimundo
+  description: "Dizem que ele é melhor que o Capitão Wells"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: ronaldo_figure
