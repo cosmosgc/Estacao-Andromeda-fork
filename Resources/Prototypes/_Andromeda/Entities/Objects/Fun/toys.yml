@@ -95,6 +95,7 @@
   - type: Sprite
     sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
     state: wells_chibi
+    scale: 0.8, 0.8
 
 - type: entity
   parent: PlushieLizard
@@ -105,3 +106,4 @@
   - type: Sprite
     sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
     state: phill_pelucia
+    scale: 0.8, 0.8
