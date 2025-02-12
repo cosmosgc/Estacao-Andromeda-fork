@@ -32,7 +32,7 @@
       path: /Audio/Voice/Human/femalescream_5.ogg
 
 - type: entity
-  parent: PlushieHuman
+  parent: PlushieJanie
   id: KaliPlushie
   name: Kali plushie
   description: Kali só para você, edição de colecionador.
@@ -40,29 +40,6 @@
   - type: Sprite
     sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
     state: kali
-  - type: UseDelay
-    delay: 1.5
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Voice/Human/womanlaugh.ogg
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Voice/Human/female_sigh.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Voice/Human/womanlaugh.ogg
-      params:
-        volume: 1
-  - type: Food
-    requiresSpecialDigestion: true
-    useSound:
-      path: /Audio/Voice/Human/femalescream_4.ogg
-  - type: MeleeWeapon
-    soundHit:
-      path: /Audio/Voice/Human/femalescream_2.ogg
-  - type: EmitSoundOnTrigger
-    sound:
-      path: /Audio/Voice/Human/femalescream_5.ogg
 
 - type: entity
   parent: PlushieHuman
@@ -90,7 +67,7 @@
         volume: 1
 
 - type: entity
-  parent: PlushieHuman
+  parent: PodroPlushie
   id: ApoloPlushie
   name: Apolo  plushie
   description: Apolo só para você, edição de colecionador.
@@ -98,24 +75,9 @@
   - type: Sprite
     sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
     state: apolo
-  - type: UseDelay
-    delay: 1.5
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Animals/mouse_squeak.ogg
-      params:
-        volume: 1
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Animals/mouse_squeak.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Animals/mouse_squeak.ogg
-      params:
-        volume: 1
 
 - type: entity
-  parent: PlushieHuman
+  parent: PodroPlushie
   id: AndroSealPlushie
   name: Foca  plushie
   description: Um plushie de foca.
@@ -123,18 +85,23 @@
   - type: Sprite
     sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
     state: seal
-  - type: UseDelay
-    delay: 1.5
-  - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Animals/mouse_squeak.ogg
-      params:
-        volume: 1
-  - type: EmitSoundOnLand
-    sound:
-      path: /Audio/Animals/mouse_squeak.ogg
-  - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/Animals/mouse_squeak.ogg
-      params:
-        volume: 1
+
+- type: entity
+  parent: PodroPlushie
+  id: WellsPlushie
+  name: Wells Chaplon
+  description: Ele ama Gorilas
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: wells_chibi
+
+- type: entity
+  parent: PlushieLizard
+  id: PhilMalPlushie
+  name: Phil-Mal
+  description: Oi Phil!!!
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
+    state: phill_pelucia
