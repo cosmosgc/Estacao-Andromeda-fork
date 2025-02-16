@@ -8,6 +8,7 @@
   requirements:
     - !type:CharacterOverallTimeRequirement
       min: 28800
+    - !type:CharacterWhitelistRequirement
   icon: JobIconStationAi
   supervisors: job-supervisors-rd
   jobEntity: StationAiBrain
