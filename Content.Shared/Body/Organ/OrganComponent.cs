@@ -29,13 +29,13 @@ public sealed partial class OrganComponent : Component, ISurgeryToolComponent //
     ///     without referencing the prototype or hardcoding.
     /// </summary>
 
-    [DataField]
-    public string SlotId = string.Empty;
+    [DataField, AlwaysPushInheritance]
+    public string SlotId = "";
 
-    [DataField]
+    [DataField, AlwaysPushInheritance]
     public string ToolName { get; set; } = "An organ";
 
-    [DataField]
+    [DataField, AlwaysPushInheritance]
     public float Speed { get; set; } = 1f;
 
     /// <summary>

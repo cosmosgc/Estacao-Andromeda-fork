@@ -4,11 +4,9 @@ using Content.Client.Guidebook;
 using Content.Client.Guidebook.Controls;
 using Content.Client.Lobby;
 using Content.Client.UserInterface.Controls;
-using Content.Shared.CCVar;
 using Content.Shared.Input;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controllers;
-using Robust.Shared.Configuration;
 using static Robust.Client.UserInterface.Controls.BaseButton;
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Prototypes;
@@ -20,11 +18,9 @@ public sealed class GuidebookUIController : UIController, IOnStateEntered<LobbyS
 {
     [UISystemDependency] private readonly GuidebookSystem _guidebookSystem = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-    [Dependency] private readonly IConfigurationManager _cfgManager = default!;
 
     private GuidebookWindow? _guideWindow;
     private MenuButton? GuidebookButton => UIManager.GetActiveUIWidgetOrNull<MenuBar.Widgets.GameTopMenuBar>()?.GuidebookButton;
-    private ProtoId<GuideEntryPrototype>? _lastEntry;
 
     public void OnStateEntered(LobbyState state)
     {
@@ -111,12 +107,6 @@ public sealed class GuidebookUIController : UIController, IOnStateEntered<LobbyS
     {
         if (GuidebookButton != null)
             GuidebookButton.Pressed = false;
-
-        if (_guideWindow != null)
-        {
-            _guideWindow.ReturnContainer.Visible = false;
-            _lastEntry = _guideWindow.LastEntry;
-        }
     }
 
     private void OnWindowOpen()
@@ -172,17 +162,6 @@ public sealed class GuidebookUIController : UIController, IOnStateEntered<LobbyS
             }
         }
 
-        if (selected == null)
-        {
-            if (_lastEntry is { } lastEntry && guides.ContainsKey(lastEntry))
-            {
-                selected = _lastEntry;
-            }
-            else
-            {
-                selected = _cfgManager.GetCVar(CCVars.DefaultGuide);
-            }
-        }
         _guideWindow.UpdateGuides(guides, rootEntries, forceRoot, selected);
 
         // Expand up to depth-2.
