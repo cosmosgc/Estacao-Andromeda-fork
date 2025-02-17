@@ -13,10 +13,12 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
-        - !type:CharacterTraitRequirement
-          inverted: true
-          traits:
-            - ShadowkinBlackeye
+    - !type:CharacterDepartmentTimeRequirement
+      department: Epistemics
+      min: 28800 # 8 hores
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobForensicMantis
+      min: 14400 #4 hrs
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

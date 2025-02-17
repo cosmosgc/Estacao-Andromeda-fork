@@ -13,3 +13,17 @@
       id: LoadoutClothingUniformJumpskirtNanotrasenRepresentative
     - type: loadout
       id: LoadoutClothingUniformJumpsuitNanotrasenRepresentative
+
+- type: characterItemGroup
+  id: LoadoutNanorepNeck
+  maxItems: 1
+  items:
+  - type: loadout
+    id: LoadoutClothingNeckCloaksNanotrasenRepresentative
+
+- type: characterItemGroup
+  id: LoadoutNanorepHead
+  maxItems: 1
+  items:
+  - type: loadout
+    id: LoadoutClothingHeadHatNanotrasenRepresentativecap

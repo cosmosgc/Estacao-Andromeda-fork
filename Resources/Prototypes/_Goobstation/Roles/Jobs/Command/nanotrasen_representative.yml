@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      min: 54000 # 15 hours
+      min: 21600 # 6 horas
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -17,6 +17,7 @@
   icon: "JobIconNanotrasenRepresentative"
   requireAdminNotify: true
   joinNotifyCrew: true
+  whitelisted: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:

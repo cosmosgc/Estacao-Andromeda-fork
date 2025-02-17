@@ -165,6 +165,10 @@
     - !type:NestedSelector
       tableId: SyndieMaintLoot
       prob: 0.05
+    # Andromeda Loot
+    - !type:NestedSelector
+      tableId: AndromedaMaintLoot # HypnoTemp plushies. Should really be a part of the AllPlushiesTable, but meh.
+      prob: 0.3
 
 - type: entity
   id: ClosetMaintenanceFilledRandom
