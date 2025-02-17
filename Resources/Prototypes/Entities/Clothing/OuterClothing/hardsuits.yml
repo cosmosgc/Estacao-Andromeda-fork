@@ -757,8 +757,6 @@
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieCommander
   - type: StaminaDamageResistance
     coefficient: 0.5 # 50%
-  - type: Item
-    size: Huge
 
 #Cybersun Juggernaut Hardsuit
 - type: entity
