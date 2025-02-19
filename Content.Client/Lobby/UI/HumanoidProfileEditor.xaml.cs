@@ -39,6 +39,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
+using Robust.Shared.Log;
 
 namespace Content.Client.Lobby.UI
 {
@@ -62,6 +63,7 @@ namespace Content.Client.Lobby.UI
         private BoxContainer _ccustomspecienamecontainerEdit => CCustomSpecieName;
         private LineEdit _customspecienameEdit => CCustomSpecieNameEdit;
         private TextEdit? _flavorTextEdit;
+
 
         /// If we're attempting to save
         public event Action? Save;
